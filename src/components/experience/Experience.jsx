@@ -5,54 +5,55 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 const data = [
   {
     id: 'frontend',
-    name: 'Frontend Development',
-    technologies: [
-      {
-        name: 'HTML',
-        level: 'Intermediate'
-      },
-      {
-        name: 'CSS',
-        level: 'Intermediate'
-      },
-      {
-        name: 'JavaScript',
-        level: 'Advanced'
-      },
-      {
-        name: 'Bootstrap',
-        level: 'Inexperienced'
-      },
-      {
-        name: 'React',
-        level: 'Intermediate'
-      }
-    ]
-  },
-  {
-    id: 'backend',
-    name: 'Backend Development',
+    name: 'Data Science & Machine Learning',
     technologies: [
       {
         name: 'Python',
         level: 'Advanced'
       },
       {
+        name: 'MongoDB',
+        level: 'Intermediate'
+      },
+      {
+        name: 'TensorFlow',
+        level: 'Advanced'
+      },
+      {
+        name: 'Excel',
+        level: 'Advanced'
+      }
+    ]
+  },
+  {
+    id: 'backend',
+    name: 'Web/iOS Development',
+    technologies: [
+      {
+        name: 'Python',
+        level: 'Advanced'
+      },
+      {
+        name: 'React',
+        level: 'Intermediate'
+      },
+      {
         name: 'Java',
         level: 'Advanced'
       },
       {
-        name: 'MongoDB',
-        level: 'Inexperienced'
+        name: 'Swift',
+        level: 'Intermediate'
       },
       {
         name: 'Node.JS',
         level: 'Intermediate'
       },
       {
-        name: 'MySQL',
+        name: 'HTML / CSS',
         level: 'Intermediate'
       }
+
     ]
   }
 ]

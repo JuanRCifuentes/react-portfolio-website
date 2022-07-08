@@ -15,14 +15,14 @@ const Footer = () => {
         <li><a href="#experience">Experience</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        {/* <li><a href="#testimonials">Testimonials</a></li> */}
         <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="footer__socials">
-        <a href=""><BsGithub /></a>
-        <a href=""><BsLinkedin /></a>
-        <a href=""><BsWhatsapp /></a>
+        <a href="https://github.com/JuanRCifuentes" target='_blank'><BsGithub /></a>
+        <a href="https://www.linkedin.com/in/juanrcifuentes" target='_blank'><BsLinkedin /></a>
+        <a href='https://wa.me/573138690872' target='_blank'><BsWhatsapp /></a>
       </div>
 
       <div className="footer__copywright">

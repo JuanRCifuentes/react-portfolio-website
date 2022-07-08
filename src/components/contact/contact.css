@@ -45,7 +45,7 @@
 }
 
 /* ======== MEDIA QUERIES (SMALL DEVICES) ============ */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     .container.contact__container {
         width: var(--container-width-sm);
     }

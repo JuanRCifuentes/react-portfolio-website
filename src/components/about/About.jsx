@@ -21,7 +21,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
 
             <article className='about__card'>
@@ -38,7 +38,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil id, cupiditate, veniam ea labore quisquam nulla facere, iure delectus quia architecto ratione voluptatum! Corrupti dolores labore rem sed harum architecto!
+            I graduated as a Mechanical Engineer and then i realized Data and Software were an essential tool in every industry. Since then, I've commited my efforts into Data Analysis (Data Science and Machine Learning) and Visualization (Dashboard, Apps and Web Development).
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

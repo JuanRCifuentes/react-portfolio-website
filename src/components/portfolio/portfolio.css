@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    overflow: hidden;
 }
 
 .portfolio__item {
@@ -32,6 +33,11 @@
     margin-bottom: 1rem;
 }
 
+.portfolio__icon {
+    margin-top: 0.4rem;
+    font-size: large;
+}
+
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ============ */
 @media screen and (max-width: 1024px) {
     .portfolio__container {
@@ -41,7 +47,7 @@
 }
 
 /* ======== MEDIA QUERIES (SMALL DEVICES) ============ */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;

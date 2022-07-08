@@ -8,17 +8,19 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Sides from './components/sides/Sides'
 
 const app = () => {
   return (
     <>
         <Header />
+        <Sides />
         <Nav />
         <About />
         <Experience />
         <Services />
         <Portfolio />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
         <Footer />
     </>

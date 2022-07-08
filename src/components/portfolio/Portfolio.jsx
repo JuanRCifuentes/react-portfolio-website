@@ -1,46 +1,16 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG1 from '../../assets/portfolio1.png'
+import {FaRegPlayCircle} from 'react-icons/fa'
+import {ImGithub} from 'react-icons/im'
 
 const data = [
   {
     id: '1',
     image: IMG1,
-    title: 'VENKRA',
+    title: 'VENKRA - Website',
     github: '',
     demo: 'https://www.venkra.com'
-  },
-  {
-    id: '2',
-    image: IMG2,
-    title: 'DOS',
-    github: '',
-    demo: ''
-  },
-  {
-    id: '3',
-    image: IMG3,
-    title: 'TRES',
-    github: '',
-    demo: ''
-  },
-  {
-    id: '4',
-    image: IMG4,
-    title: 'CUATRO',
-    github: '',
-    demo: ''
-  },
-  {
-    id: '5',
-    image: IMG5,
-    title: 'CINCO',
-    github: '',
-    demo: ''
   }
 ]
 
@@ -60,8 +30,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' target="_blank">Github</a>
-                  <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+                  <a href={github} className='btn' target="_blank"><ImGithub className='portfolio__icon'/></a>
+                  <a href={demo} className='btn btn-primary' target="_blank"><FaRegPlayCircle className='portfolio__icon'/></a>
                 </div>
               </article>
             )

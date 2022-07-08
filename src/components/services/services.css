@@ -44,7 +44,7 @@
 
 .service__list-icon {
     color: var(--color-primary);
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .service__list p {
@@ -65,7 +65,7 @@
 }
 
 /* ======== MEDIA QUERIES (SMALL DEVICES) ============ */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
