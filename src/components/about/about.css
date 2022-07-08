@@ -7,13 +7,8 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    border-radius: 2.3rem;
+    background: var(--color-primary);
     display: grid;
     place-items: center;
 }
@@ -21,12 +16,13 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    width: 95%;
     transition: var(--transition);
 }
 
 .about__me-image:hover {
-    transform: rotate(0);
+    transform: scale(110%);
+    /* width: 120%; */
 }
 
 .about__cards {
@@ -94,7 +90,6 @@
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        padding: 1rem;
     }
     .about__content {
         text-align: center;
