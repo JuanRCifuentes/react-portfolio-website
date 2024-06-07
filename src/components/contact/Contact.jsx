@@ -33,7 +33,7 @@ const Contact = () => {
                   {option.icon}
                   <h4>{option.name}</h4>
                   <h5>{option.contact}</h5>
-                  <a href={option.link} target='_blank'>Send message</a>
+                  <a href={option.link} target='_blank' rel="noreferrer">Send message</a>
                 </article>
               )
             })
