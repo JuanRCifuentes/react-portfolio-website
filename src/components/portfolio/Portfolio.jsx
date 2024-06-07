@@ -9,7 +9,7 @@ const data = [
     id: '1',
     image: IMG1,
     title: 'VENKRA - Website',
-    github: '',
+    github: 'https://github.com/JuanRCifuentes/venkra--basic-website',
     demo: 'https://www.venkra.com'
   }
 ]

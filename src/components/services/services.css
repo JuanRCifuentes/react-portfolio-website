@@ -4,6 +4,10 @@
     gap: 3rem;
 }
 
+.services__message {
+    padding-bottom: 2rem;
+}
+
 .service {
     background: var(--color-bg-variant);
     border-radius: 2rem;
@@ -33,7 +37,7 @@
 }
 
 .service__list {
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .service__list li {
@@ -49,7 +53,6 @@
 
 .service__list p {
     font: 0.9rem;
-    
 }
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ============ */

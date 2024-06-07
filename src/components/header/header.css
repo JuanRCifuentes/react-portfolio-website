@@ -1,12 +1,13 @@
 header {
     height: 100vh;
-    padding-top: 20%;
     overflow: hidden;
+    /* center content vertically */
+    display: flex;
+    align-items: center;
 }
 
 .header__container {
     text-align: center;
-    height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -31,15 +32,11 @@ header {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 22rem;
-    /* aspect-ratio: 1/1; */
-    height: max-width;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 60px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ============ */

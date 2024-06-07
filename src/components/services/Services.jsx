@@ -37,8 +37,10 @@ const Services = () => {
     <section id='services'>
       <h5>What I Offer</h5>
       <h2>Services</h2>
-      <div className="container services__container">
+      <div className='container services__message'>
         <p>All the work I do is iterative, as I like getting feedback from clients and deliver the best possible product.</p>
+      </div>
+      <div className="container services__container">
         {
           specialties.map(specialty => {
             return (

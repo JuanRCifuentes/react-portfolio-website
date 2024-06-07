@@ -6,9 +6,9 @@ import {BsWhatsapp} from 'react-icons/bs'
 const options = [
   {
     name: 'E-mail',
-    contact: 'kkk@kk.com',
+    contact: 'info@juanrcifuentes.com',
     icon: <HiOutlineMail className='contact__option-icon'/>,
-    link: 'mailto:lol@lol.com'
+    link: 'mailto:info@juanrcifuentes.com'
   },
   {
     name: 'WhatsApp',
